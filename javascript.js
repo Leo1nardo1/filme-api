@@ -7,7 +7,7 @@ formPesquisa.onsubmit = (ev) => {
   
   //target é o form e dentro do form temos um campo com name = pesquisa
   const pesquisa = ev.target.pesquisa.value;
-  const apiKey = "2d604fb";
+  const apiKey = "";
   
   //Realiza a validação do campo.
   if(pesquisa ==""){
